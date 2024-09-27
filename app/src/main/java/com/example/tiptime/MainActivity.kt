@@ -144,6 +144,7 @@ private fun calculateTip(
     if (roundUp) {
         tip = kotlin.math.ceil(tip)
     }
+
     return NumberFormat.getCurrencyInstance().format(tip)
 }
 
